@@ -11,7 +11,7 @@ If you enjoy my projects, you can buy me a coffee!
 
 ### Technical
 
-This plugin changes appearance only on chatgpt.com. See [manifest.json](manifest.json) for reference. 
+This plugin changes appearance only on chatgpt.com. See [manifest.json](manifest.json) for reference.
 
 ### Local Installation Steps for debugging purposes
 

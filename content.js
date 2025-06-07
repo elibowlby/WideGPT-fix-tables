@@ -77,6 +77,16 @@ const adjustMaxWidth = (width = 100) => {
                 --thread-content-max-width: ${width}% !important;
             }
         }
+        /* Override table container margins added by ChatGPT */
+        div[class^='_tableContainer'] {
+            --thread-content-width: unset !important;
+        }
+
+        /* Ensure table wrapper matches selected width */
+        div[class^='_tableWrapper'] {
+            min-width: fit-content !important;
+            max-width: ${width}% !important;
+        }
     `;
     attachOrUpdateStyleRule(css);
 };
